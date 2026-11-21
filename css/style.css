@@ -132,6 +132,18 @@ nav a {
     margin-bottom: 12px;
 }
 
+.add-to-cart-button {
+    background-color: var(--color-secondary);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
 .bo-goc {
     border-radius: 8px;
 }
@@ -147,4 +159,11 @@ nav a {
     font-size: 15px;
     font-weight: 700;
     color: var(--color-secondary);
+}
+.footer{
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px;
+    display: grid;
+    place-items: center;
 }
