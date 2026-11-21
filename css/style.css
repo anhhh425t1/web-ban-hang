@@ -505,15 +505,20 @@ nav a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 12px;
 }
 
 
 .register-button {
     width: 100%;
     padding: 12px;
+    display: inline-block;
+    text-decoration: none;
     background: var(--color-secondary);
-    color: var(--color-fourth);
-    border: 2px solid var(--color-third);
+    color: white;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
 }
