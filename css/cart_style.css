@@ -33,6 +33,42 @@ body {
     display: block;
 }
 
+.Shopname{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-left: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-bar input {
+    padding: 8px 12px;
+    border: 1px solid var(--color-fourth);
+    border-radius: 8px;
+    outline: none;
+    width: 250px;
+    transition: border-color 0.2s ease;
+}
+.search-bar input:focus {
+    border-color: var(--color-secondary);
+}
+.search-bar button {
+    padding: 8px 12px;
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.search-bar button:hover {
+    background-color: var(--color-secondary);
+}
 
 nav a {
     text-decoration: none;
